@@ -16,8 +16,7 @@ import (
 func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("GET /", func(w http.ResponseWriter, r *http.Request) {
-		err := getError()
-		jsonResponse(w, http.StatusServiceUnavailable, err)
+		jsonResponse(w, http.StatusServiceUnavailable, getError(r.Context()))
 	})
 
 	var handler http.Handler = mux
@@ -28,6 +27,7 @@ func main() {
 	}
 
 	go func() {
+		slog.Info("Starting server on port 8080")
 		if err := srv.ListenAndServe(); err != nil && !errors.Is(err, http.ErrServerClosed) {
 			wrappedErr := fmt.Errorf("server failed to start: %w", err)
 			fmt.Println("Server failed to start: error", wrappedErr)
@@ -43,6 +43,7 @@ func main() {
 	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
 	defer cancel()
 
+	slog.Info("Shutting down server")
 	if err := srv.Shutdown(ctx); err != nil {
 		wrappedErr := fmt.Errorf("server forced to shutdown: %w", err)
 		fmt.Println("Server forced to shutdown: error", wrappedErr)
@@ -53,10 +54,13 @@ func main() {
 
 }
 
-func getError() error {
+func getError(ctx context.Context) error {
+	if ctx.Err() != nil {
+		slog.Error("Context error", "error", ctx.Err())
+		return ctx.Err()
+	}
 	slog.Error("Random error in home handler", "error", "random service unavailable")
-	err := fmt.Errorf("%d: %s", http.StatusServiceUnavailable, "Service temporarily unavailable")
-	return err
+	return fmt.Errorf("%d: %s", http.StatusServiceUnavailable, "Service temporarily unavailable")
 }
 
 func jsonResponse(w http.ResponseWriter, status int, data interface{}) {
