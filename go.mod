@@ -2,13 +2,14 @@ module github.com/hannahkm/demo-service
 
 go 1.24.1
 
+replace github.com/DataDog/datadog-agent/pkg/trace => github.com/DataDog/datadog-agent/pkg/trace v0.67.0
+
 require (
-	github.com/DataDog/dd-trace-go/v2 v2.2.3
-	github.com/DataDog/orchestrion v1.5.1-0.20250911131225-e37b24493181
+	github.com/DataDog/dd-trace-go/v2 v2.4.0-dev.0.20250911151540-94e598897591
+	github.com/DataDog/orchestrion v1.5.1-0.20250912140649-51543270eeba
 )
 
 require (
-	github.com/DataDog/appsec-internal-go v1.14.0 // indirect
 	github.com/DataDog/datadog-agent/comp/core/tagger/origindetection v0.70.0 // indirect
 	github.com/DataDog/datadog-agent/pkg/obfuscate v0.70.0 // indirect
 	github.com/DataDog/datadog-agent/pkg/proto v0.70.0 // indirect
@@ -38,7 +39,6 @@ require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.7 // indirect
 	github.com/dave/dst v0.27.3 // indirect
 	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/eapache/queue/v2 v2.0.0-20230407133247-75960ed334e4 // indirect
 	github.com/ebitengine/purego v0.8.4 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
@@ -71,6 +71,7 @@ require (
 	github.com/philhofer/fwd v1.2.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
+	github.com/polyfloyd/go-errorlint v1.8.1-0.20250906200200-9b25878c4dea // indirect
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
 	github.com/puzpuzpuz/xsync/v3 v3.5.1 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
@@ -78,6 +79,7 @@ require (
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/secure-systems-lab/go-securesystemslib v0.9.1 // indirect
 	github.com/shirou/gopsutil/v4 v4.25.8 // indirect
+	github.com/theckman/httpforwarded v0.4.0 // indirect
 	github.com/tinylib/msgp v1.4.0 // indirect
 	github.com/tklauser/go-sysconf v0.3.15 // indirect
 	github.com/tklauser/numcpus v0.10.0 // indirect
@@ -93,6 +95,7 @@ require (
 	go.opentelemetry.io/collector/featuregate v1.40.0 // indirect
 	go.opentelemetry.io/collector/internal/telemetry v0.134.0 // indirect
 	go.opentelemetry.io/collector/pdata v1.40.0 // indirect
+	go.opentelemetry.io/collector/semconv v0.125.0 // indirect
 	go.opentelemetry.io/contrib/bridges/otelzap v0.13.0 // indirect
 	go.opentelemetry.io/otel v1.38.0 // indirect
 	go.opentelemetry.io/otel/log v0.14.0 // indirect
