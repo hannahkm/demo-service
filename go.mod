@@ -4,6 +4,8 @@ go 1.24.1
 
 replace github.com/DataDog/datadog-agent/pkg/trace => github.com/DataDog/datadog-agent/pkg/trace v0.67.0
 
+replace github.com/DataDog/datadog-agent/pkg/remoteconfig/state => github.com/DataDog/datadog-agent/pkg/remoteconfig/state v0.69.0
+
 require (
 	github.com/DataDog/dd-trace-go/v2 v2.4.0-dev.0.20250911151540-94e598897591
 	github.com/DataDog/orchestrion v1.5.1-0.20250912140649-51543270eeba

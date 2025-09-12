@@ -33,6 +33,8 @@ aspects:
       #         - result-implements: "error"
     advice:
       - prepend-statements:
+          # template: |-
+          #   fmt.Println("Hello, World!")
           imports:
             tracer: github.com/DataDog/dd-trace-go/v2/ddtrace/tracer
             errortrace: github.com/DataDog/dd-trace-go/v2/instrumentation/errortrace

@@ -4,8 +4,8 @@ github.com/DataDog/datadog-agent/pkg/obfuscate v0.70.0 h1:/dIzkJimTfnM6Ta5lCEx2e
 github.com/DataDog/datadog-agent/pkg/obfuscate v0.70.0/go.mod h1:p5jc7QPoes2j/KHXEJSmvpKl3LtHioPjjGVTqEeb0vQ=
 github.com/DataDog/datadog-agent/pkg/proto v0.70.0 h1:vBKSIr0jd+ULIXXW/g7S1art2wmJdrNtVUJ9+IFkKR8=
 github.com/DataDog/datadog-agent/pkg/proto v0.70.0/go.mod h1:04uBfKTbFuA9muKbgBE6yC/+955fGjnpwkTPV2LjREY=
-github.com/DataDog/datadog-agent/pkg/remoteconfig/state v0.70.0 h1:kTPYlLRTIOTE0aRw+nxrajW4jMd+d75TESmV5j5ouBk=
-github.com/DataDog/datadog-agent/pkg/remoteconfig/state v0.70.0/go.mod h1:RaAja1FpZs9KoDQsqGKkq3VQ9phpFXqkjFf/ZxRmr3A=
+github.com/DataDog/datadog-agent/pkg/remoteconfig/state v0.69.0 h1:/DsN4R+IkC6t1+4cHSfkxzLtDl84rBbPC5Wa9srBAoM=
+github.com/DataDog/datadog-agent/pkg/remoteconfig/state v0.69.0/go.mod h1:Th2LD/IGid5Rza55pzqGu6nUdOv/Rts6wPwLjTyOSTs=
 github.com/DataDog/datadog-agent/pkg/trace v0.67.0 h1:dqt+/nObo0JKyaEqIMZgfqGZbx9TfEHpCkrjQ/zzH7k=
 github.com/DataDog/datadog-agent/pkg/trace v0.67.0/go.mod h1:zmZoEtKvOnaKHbJGBKH3a4xuyPrSfBaF0ZE3Q3rCoDw=
 github.com/DataDog/datadog-agent/pkg/util/log v0.70.0 h1:20E3/8J/FIuC27x0qYtHtgTL9DSsKtnUeezsFgybYwk=
