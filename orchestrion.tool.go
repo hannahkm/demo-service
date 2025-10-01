@@ -19,5 +19,5 @@ import (
 	// Do not remove.
 	_ "github.com/DataDog/orchestrion" // integration
 
-	_ "github.com/DataDog/dd-trace-go/v2/instrumentation/errortrace" // integration
+	_ "github.com/DataDog/dd-trace-go/orchestrion/all/v2" // integration
 )
