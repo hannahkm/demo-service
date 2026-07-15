@@ -1,0 +1,4 @@
+./doc.go
+./dump_waf_darwin.go
+./lib_darwin_arm64.go
+./version.go

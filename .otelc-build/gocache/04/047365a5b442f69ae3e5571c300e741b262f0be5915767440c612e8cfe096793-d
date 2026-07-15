@@ -1,0 +1,6 @@
+./azure.go
+./constants.go
+./doc.go
+./processed_trace.go
+./span.go
+./trace.go

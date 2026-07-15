@@ -1,0 +1,5 @@
+./normalizer.go
+./obfuscate_and_normalize.go
+./obfuscator.go
+./sqllexer.go
+./sqllexer_utils.go

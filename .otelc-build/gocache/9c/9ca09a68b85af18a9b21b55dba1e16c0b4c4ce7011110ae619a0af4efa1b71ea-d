@@ -1,0 +1,9 @@
+./appendfloat_f.go
+./ftoaryu.go
+./options.go
+./parse_number.go
+./parsed_array.go
+./parsed_json.go
+./parsed_object.go
+./parsed_serialize.go
+./simdjson_other.go

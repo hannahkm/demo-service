@@ -1,0 +1,2 @@
+./osinfo.go
+./osinfo_unix.go

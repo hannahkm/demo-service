@@ -54,6 +54,7 @@ func main() {
 
 }
 
+//otelc:span
 func getError(ctx context.Context) error {
 	if ctx.Err() != nil {
 		slog.Error("Context error", "error", ctx.Err())

@@ -1,0 +1,8 @@
+./ci_providers.go
+./codeowners.go
+./environmentTags.go
+./file_environmental_data.go
+./git.go
+./home.go
+./names.go
+./source_paths.go

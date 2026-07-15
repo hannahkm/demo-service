@@ -1,0 +1,13 @@
+./active_span_key.go
+./agent.go
+./container_stub.go
+./env.go
+./gitmetadata.go
+./inmemoryfile.go
+./meta_internal_types.go
+./statsd.go
+./trace_context.go
+./trace_source.go
+./tracer.go
+./uds.go
+./utils.go

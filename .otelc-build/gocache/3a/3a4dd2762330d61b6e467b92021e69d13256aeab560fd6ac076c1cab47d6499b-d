@@ -1,0 +1,3 @@
+./env.go
+./supported_configurations.gen.go
+./supported_configurations.go

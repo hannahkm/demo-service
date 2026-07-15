@@ -1,0 +1,6 @@
+./contribs_generated.go
+./event.go
+./event_msgp.go
+./stacktrace.go
+./stacktrace_msgp.go
+./trie.go

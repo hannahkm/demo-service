@@ -1,0 +1,5 @@
+./bit_operation_helper.go
+./cubically_interpolated_mapping.go
+./index_mapping.go
+./linearly_interpolated_mapping.go
+./logarithmic_mapping.go

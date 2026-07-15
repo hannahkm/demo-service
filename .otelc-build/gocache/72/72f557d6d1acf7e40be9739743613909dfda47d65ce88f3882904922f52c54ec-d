@@ -1,0 +1,5 @@
+./ctypes.go
+./libddwaf.go
+./safe.go
+./singleton.go
+./waf_dl.go

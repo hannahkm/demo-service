@@ -1,0 +1,8 @@
+./agent_config.go
+./configs.go
+./configs_agent_task.go
+./configs_asm.go
+./path.go
+./products.go
+./repository.go
+./tuf.go

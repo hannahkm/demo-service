@@ -1,0 +1,13 @@
+./builder.go
+./builders.go
+./context.go
+./decoder.go
+./diagnostics.go
+./doc.go
+./encoder.go
+./handle.go
+./result.go
+./runner.go
+./subcontext.go
+./waf.go
+./waf_object.go

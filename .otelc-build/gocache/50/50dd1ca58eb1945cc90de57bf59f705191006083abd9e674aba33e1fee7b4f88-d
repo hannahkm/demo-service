@@ -1,0 +1,5 @@
+./declarativeconfig.go
+./declarativeconfigsource.go
+./envconfigsource.go
+./otelenvconfigsource.go
+./provider.go

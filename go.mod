@@ -70,8 +70,8 @@ require (
 	github.com/DataDog/dd-trace-go/contrib/twmb/franz-go/v2 v2.9.1 // indirect
 	github.com/DataDog/dd-trace-go/contrib/valkey-io/valkey-go/v2 v2.9.1 // indirect
 	github.com/DataDog/dd-trace-go/contrib/valyala/fasthttp/v2 v2.9.1 // indirect
-	github.com/DataDog/dd-trace-go/v2 v2.9.1 // indirect
-	github.com/DataDog/go-libddwaf/v4 v4.10.0 // indirect
+	github.com/DataDog/dd-trace-go/v2 v2.11.0-dev // indirect
+	github.com/DataDog/go-libddwaf/v5 v5.0.0-rc.2 // indirect
 	github.com/DataDog/go-runtime-metrics-internal v0.0.4-0.20260317103029-7c129975f019 // indirect
 	github.com/DataDog/go-sqllexer v0.2.2 // indirect
 	github.com/DataDog/go-tuf v1.1.1-0.5.2 // indirect
@@ -232,6 +232,7 @@ require (
 	github.com/nats-io/nkeys v0.4.16 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
 	github.com/nxadm/tail v1.4.11 // indirect
+	github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pkg v0.5.0 // indirect
 	github.com/outcaste-io/ristretto v0.2.3 // indirect
 	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
 	github.com/petermattis/goid v0.0.0-20260701081913-4f67fd55d3b4 // indirect
@@ -332,3 +333,7 @@ require (
 	k8s.io/utils v0.0.0-20251002143259-bc988d571ff4 // indirect
 	modernc.org/sqlite v1.36.2 // indirect
 )
+
+replace github.com/DataDog/dd-trace-go/contrib/net/http/v2 => /Users/hannahs.kim/go/src/github.com/DataDog/dd-trace-go/contrib/net/http
+
+replace github.com/open-telemetry/opentelemetry-go-compile-instrumentation/pkg => /Users/hannahs.kim/go/src/github.com/DataDog/opentelemetry-go-compile-instrumentation/pkg

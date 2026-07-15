@@ -1,0 +1,6 @@
+./client.go
+./delegations.go
+./errors.go
+./file_store.go
+./local_store.go
+./remote_store.go

@@ -1,0 +1,6 @@
+./internal_span.go
+./span.go
+./span.pb.go
+./span_v05.go
+./tracer_payload.go
+./tracer_payload.pb.go
